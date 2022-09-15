@@ -617,6 +617,11 @@ The result is cached for one second to avoid hiccups."
    `(helm-swoop-target-word-face ((,class (:foreground ,purple :background ,background-purple :weight bold))))
    `(helm-swoop-line-number-face ((,class (:foreground ,comment))))
 
+   ;; selectrum
+   `(selectrum-current-candidate ((,class (:background "#48384c" :weight bold :foreground "#c678dd"))))
+   `(selectrum-prescient-primary-highlight ((,class (:foreground "#da8548"))))
+   `(selectrum-prescient-secondary-highlight ((,class (:foreground "#98be65"))))
+
    ;; visible mark
    `(visible-mark-face1 ((,class (:foreground ,orange-light :inverse-video t))))
    `(visible-mark-face2 ((,class (:foreground ,peach :inverse-video t))))
